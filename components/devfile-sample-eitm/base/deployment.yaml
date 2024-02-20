@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-eitm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0060-tenant/tkrw-pr712-0075-0060-app/devfile-sample-eitm@sha256:c718e3c922fa6db1d782728a398e432fdfdc54b04aed7e4969c9dfb6fff77e4f
         name: my-nodejs
         ports:
         - containerPort: 3001
